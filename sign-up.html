@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./sign-up.css" />
+
+    <title>Frontend Mentor | Officelite coming soon site</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="./index.html"><img src="./assets/shared/logo.svg" alt="" /></a>
+      </header>
+      <main>
+        <section class="section-1">
+          <h1>Work smarter. Save time.</h1>
+          <p>
+            Easily manage your projects. Get on the list and receive in-app
+            perks available only to early subscribers. We are moving into final
+            development and getting ready for official launch soon.
+          </p>
+        </section>
+        <section class="section-2">
+          <h2>Coming <span>4 Nov 2024</span></h2>
+          <div class="time-count-down">
+            <div class="time-card time-days">
+              <h2>00</h2>
+              <span>days</span>
+            </div>
+            <div class="time-card time-hours">
+              <h2>00</h2>
+              <span>hours</span>
+            </div>
+            <div class="time-card time-minutes">
+              <h2>00</h2>
+              <span>minutes</span>
+            </div>
+            <div class="time-card time-seconds">
+              <h2>00</h2>
+              <span>seconds</span>
+            </div>
+          </div>
+        </section>
+        <section class="form-section">
+          <form id="formField" action="submit">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email Address" />
+            <input list="packs" name="pack" />
+            <datalist id="packs">
+              <option value="Basic Pack"><span>free</span></option>
+              <option value="Pro Pack"></option>
+              <option value="Ultimate Pack"></option>
+            </datalist>
+            <input type="tel" placeholder="Phone Number" />
+            <input type="text" placeholder="Company" />
+            <button class="btn" type="submit">Get on the list</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <div class="background"></div>
+    <script src="./sign-up.js"></script>
+  </body>
+</html>
